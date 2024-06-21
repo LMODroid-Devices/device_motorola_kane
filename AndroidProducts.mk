@@ -15,8 +15,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lmodroid_kane.mk
-
-COMMON_LUNCH_CHOICES := \
-    lmodroid_kane-user \
-    lmodroid_kane-userdebug \
-    lmodroid_kane-eng
