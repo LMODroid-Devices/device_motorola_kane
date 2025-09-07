@@ -23,11 +23,11 @@ $(call inherit-product, device/motorola/kane/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 ## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := kane
-PRODUCT_NAME := lineage_kane
+PRODUCT_NAME := lmodroid_kane
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := motorola one vision
 PRODUCT_MANUFACTURER := motorola
